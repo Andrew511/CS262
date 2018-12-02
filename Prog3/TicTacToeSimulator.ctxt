@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ initialize()
+comment0.text=\r\n\ Initializes\ the\ board\ into\ being\ filled\ with\ empty\ spaces\ and\ clears\ any\ of\ the\ previous\ games\ pieces.\r\n
+comment1.params=
+comment1.target=void\ printBoard()
+comment1.text=\r\n\ prints\ the\ board\ into\ the\ terminal\ and\ shows\ any\ updates\r\n
+comment2.params=x\ y
+comment2.target=boolean\ isValid(int,\ int)
+comment2.text=\r\n\ checks\ if\ a\ position\ within\ the\ board\ is\ a\ valid\ move\ or\ not\r\n\ \r\n\ @param\ y\ the\ y\ coordinate\ on\ the\ board\ of\ the\ move\r\n\ @param\ x\ the\ x\ coordinate\ on\ the\ board\ of\ the\ move\r\n\ @return\ returns\ a\ boolean\ for\ the\ validity\ of\ the\ board\ position,\ true\ \=\ valid\ move,\ otherwise\ false.\r\n
+comment3.params=moveLocation\ winSymbol
+comment3.target=boolean\ checkWin(int[],\ char)
+comment3.text=\r\n\ checks\ if\ a\ player\ has\ won\ and\ achieved\ 3\ pieces\ in\ a\ row.\r\n\ \r\n\ @param\ moveLocation\ the\ board\ coordinate\ where\ the\ move\ was\ placed\r\n\ @param\ winSymbol\ the\ symbol\ that\ the\ player\ is\ using,\ is\ used\ to\ see\ if\ three\ of\ these\ are\ lined\ up.\r\n\ \r\n\ @return\ boolean\ true\ for\ win\ false\ for\ hasnt\ won\ yet\r\n
+comment4.params=player\ opposingPlayer
+comment4.target=void\ takeTurn(TicTacToePlayer,\ TicTacToePlayer)
+comment4.text=\r\n\ has\ the\ inputted\ player\ take\ his\ turn\ and\ runs\ any\ necessary\ script\ for\ him\ to\ do\ that.\r\n\ \r\n\ @param\ player\ the\ player\ taking\ the\ turn\r\n\ @param\ opposingPlayer\ the\ player\ not\ currently\ taking\ a\ turn,\ used\ in\ case\ current\ player\ makes\ a\ invalid\ move\ and\ loses.\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ runs\ the\ main\ game\ loop\ and\ calls\ all\ necessary\ functions,\ also\ initializes\ both\ players\ and\ the\ board.\r\n
+numComments=6

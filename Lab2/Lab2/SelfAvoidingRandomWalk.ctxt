@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=numRows\ numColumns\ startRow\ startColumn
+comment0.target=SelfAvoidingRandomWalk(int,\ int,\ int,\ int)
+comment1.params=
+comment1.target=void\ step()
+comment2.params=
+comment2.target=boolean\ canTakeStep()
+comment3.params=
+comment3.target=int\ length()
+comment4.params=
+comment4.target=void\ print()
+numComments=5

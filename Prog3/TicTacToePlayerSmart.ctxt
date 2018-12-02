@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=name\ symbol
+comment0.target=TicTacToePlayerSmart(java.lang.String,\ char)
+comment0.text=\ basic\ constructor\ for\ tic\ tac\ toe\ strategies.\r\n\ \r\n\ @param\ name\ the\ name\ of\ the\ player\ object,\ and\ how\ it\ is\ identified.\r\n\ @param\ symbol\ whether\ the\ player\ is\ X's\ or\ O's\r\n
+comment1.params=
+comment1.target=int[]\ makeMove()
+comment1.text=makes\ a\ move\ for\ the\ tic\ tac\ toe\ strategy,\ by\ checking\ what\ rows/columns\ are\ almost\ full\ of\ pieces\ and\ blocks\r\n\ them\ otherwise\ following\ a\ predetermined\ path\ controlling\ the\ corners\ if\ it\ is\ not\ threatened.\r\n\ \r\n\ @return\ int[]\ the\ location\ where\ the\ move\ will\ be\ made\ on\ the\ board.\r\n
+comment2.params=
+comment2.target=void\ reset()
+comment2.text=\r\n\ resets\ all\ instance\ variables\ within\ the\ strategies\ and\ setting\ it\ to\ it's\ default\ state.\r\n
+comment3.params=
+comment3.target=int[]\ checkRows()
+comment3.text=checks\ the\ rows\ to\ see\ if\ they\ are\ almost\ full\ and\ a\ move\ needs\ to\ be\ made\ to\ prevent\ opponent\ from\ winning\r\n\ \r\n\ @return\ int[]\ the\ location\ where\ the\ move\ will\ be\ made\ on\ the\ board\ or\ if\ a\ move\ does\ not\ need\ to\ be\ made.\r\n
+comment4.params=
+comment4.target=int[]\ checkColumns()
+comment4.text=checks\ the\ columns\ to\ see\ if\ they\ are\ almost\ full\ and\ a\ move\ needs\ to\ be\ made\ to\ prevent\ opponent\ from\ winning\r\n\ \r\n\ @return\ int[]\ the\ location\ where\ the\ move\ will\ be\ made\ on\ the\ board\ or\ if\ a\ move\ does\ not\ need\ to\ be\ made.\r\n
+comment5.params=
+comment5.target=int[]\ checkDiagonals()
+comment5.text=checks\ both\ ddiagonals\ to\ see\ if\ they\ are\ almost\ full\ and\ a\ move\ needs\ to\ be\ made\ to\ prevent\ opponent\ from\ winning\r\n\ \r\n\ @return\ int[]\ the\ location\ where\ the\ move\ will\ be\ made\ on\ the\ board\ or\ if\ a\ move\ does\ not\ need\ to\ be\ made.\r\n
+comment6.params=
+comment6.target=int[]\ normalPlay()
+comment6.text=\ normal\ strategy\ to\ be\ followed\ if\ there\ is\ no\ threat\ of\ losing\ to\ the\ opponent,\ focusing\ on\ securing\ corners\ to\ prevent\r\n\ multiple\ win\ states.\r\n\ \r\n\ @return\ int[]\ the\ location\ where\ the\ move\ will\ be\ made\ on\ the\ board\ or\ if\ a\ move\ does\ not\ need\ to\ be\ made.\r\n
+numComments=7

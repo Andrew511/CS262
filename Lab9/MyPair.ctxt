@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=inX\ inY
+comment0.target=MyPair(java.lang.Object,\ java.lang.Object)
+comment1.params=
+comment1.target=java.lang.Object\ getX()
+comment2.params=
+comment2.target=java.lang.Object\ getY()
+comment3.params=inX
+comment3.target=void\ setX(java.lang.Object)
+comment4.params=inY
+comment4.target=void\ setY(java.lang.Object)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=toBeSwapped
+comment6.target=MyPair\ swap(MyPair)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

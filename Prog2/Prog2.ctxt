@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=inSize
+comment0.target=int[][]\ getRandomSorted2DArray(int)
+comment0.text=\r\n\ Returns\ a\ 2d\ array\ of\ size\ inSize\ squared\ for\ use\ in\ the\ search\ algorithm,\ this\ array\ is\ random\ and\ sorted.\r\n\ \r\n\ @param\ inSize\ the\ size\ of\ the\ the\ array,\ will\ be\ squared\ to\ get\ the\ actual\ size.\r\n\ @return\ returns\ the\ completed\ random\ sorted\ array.\r\n
+comment1.params=base\ power
+comment1.target=int\ recPow(int,\ int)
+comment1.text=\r\n\ recursively\ brings\ the\ base\ to\ the\ power\ inputted.\r\n\ \r\n\ @int\ base\ the\ base\ number\ to\ be\ brought\ to\ a\ power\r\n\ @int\ power\ the\ power\ that\ the\ base\ will\ be\ brought\ to.\r\n\ \r\n\ @return\ returns\ the\ base\ after\ it\ has\ been\ raised\ to\ the\ power.\r\n
+comment2.params=data
+comment2.target=void\ print2D(int[][])
+comment2.text=\r\n\ prints\ out\ an\ inputted\ 2d\ array\r\n\ \r\n\ @param\ data\ the\ 2d\ array\ that\ should\ be\ printed\ out\r\n
+comment3.params=data\ left\ right\ top\ bottom\ val
+comment3.target=int[]\ threeQuarterSearch(int[][],\ int,\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ searches\ through\ a\ 2d\ array\ recursively,\ first\ checking\ the\ middle\ row\ and\ column\ for\ the\ value\r\n\ then\ moving\ onto\ 3\ of\ the\ 4\ corner\ quadrants\ depending\ on\ whether\ the\ value\ is\ larger\ than\ the\ middle\ value\r\n\ or\ not.\r\n\ \r\n\ @param\ data\ the\ 2D\ array\ to\ be\ searched\r\n\ @param\ left\ the\ left\ bound\ of\ the\ search\r\n\ @param\ right\ the\ right\ bound\ of\ the\ search\r\n\ @param\ top\ the\ upper\ bound\ of\ the\ search\r\n\ @param\ bottom\ the\ lower\ bound\ of\ the\ search\r\n\ @param\ val\ the\ value\ to\ be\ searched\ for\ by\ the\ algorithm\r\n\ \r\n\ @return\ returns\ -1,\ -1\ if\ the\ val\ is\ not\ found,\ or\ the\ coordinates\ of\ the\ value\ in\ the\ array\r\n
+comment4.params=data\ val\ left\ right\ row
+comment4.target=int[]\ binarySearchRow(int[],\ int,\ int,\ int,\ int)
+comment4.text=\r\n\ searches\ the\ row\ it\ is\ acted\ upon,\ using\ binary\ search\r\n\ \r\n\ @param\ data\ the\ 2D\ array\ to\ be\ searched\r\n\ @param\ left\ the\ left\ bound\ of\ the\ search\r\n\ @param\ right\ the\ right\ bound\ of\ the\ search\r\n\ @param\ val\ the\ value\ to\ be\ searched\ for\ by\ the\ algorithm\r\n\ @param\ row\ the\ row\ that\ is\ being\ searched\r\n\ \r\n\ @return\ returns\ -1,\ -1\ if\ the\ val\ not\ found,\ else\ the\ coordinates\ of\ the\ val\ in\ the\ array.\r\n
+comment5.params=data\ col\ row\ bottom\ val
+comment5.target=int[]\ searchCol(int[][],\ int,\ int,\ int,\ int)
+comment5.text=\r\n\ Searches\ the\ column\ it\ is\ acted\ upon,\ value\ by\ value.\r\n\ \r\n\ @param\ data\ the\ 2D\ array\ to\ be\ searched\r\n\ @param\ col\ the\ column\ being\ searched\ by\ the\ method\r\n\ @param\ row\ the\ row\ of\ the\ column\ being\ searched\r\n\ @param\ bottom\ the\ lower\ bound\ of\ the\ search\r\n\ @param\ val\ the\ value\ to\ be\ searched\ for\ by\ the\ algorithm\r\n\ \r\n\ @return\ returns\ the\ coordinates\ of\ the\ value\ in\ the\ array,\ otherwise\ -1,-1\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
